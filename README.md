@@ -34,7 +34,7 @@ A proposta do projeto é unir **lógica de programação** com **design intuitiv
 
 <p align="center">
   <img src="./assets/conversor1.png" width="600px" alt="Visual do Conversor de Moedas"><br>
-  <em>Interface moderna e fácil de usar 💸</em>
+  <em>Interface moderna e intuitiva para conversões rápidas 💸</em>
 </p>
 
 
