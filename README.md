@@ -68,18 +68,9 @@ Durante o desenvolvimento deste projeto, aprimorei meus conhecimentos em:
 
 ---
 
-## 📸 Demonstração
-
-<p align="center">
-  <img src="./assets/money-gif.gif" width="200px" alt="Animação de moedas girando"><br>
-  <em>Interface simples e intuitiva para conversões rápidas 💸</em>
-</p>
-
----
-
 ## 🚀 Como Executar o Projeto
 
 1. Faça o clone deste repositório:
-   ```bash
-   git clone https://github.com/SEU-USUARIO/conversor-de-moedas
+   
+   git clone https://github.com/Gustavolopes-dev/conversor-de-moedas
 
