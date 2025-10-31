@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Conversor de Moedas</title>
+    <title>Conversor de Moedagit </title>
 </head>
 
 <body>
@@ -19,17 +19,23 @@
     <div class="container">
         <label>
             Converter <b>de</b>
-            <select>
-                <option>R$ Real Brasileiro</option>
+            <select class="currency-select1">
+                <option value="real" selected>R$ Real Brasileiro</option>
+                <option value="dolar">$ Dólar Americano</option>
+                <option value="euro">€ Euro</option>
+                <option value="bitcoin">bitcoin</option>
+                <option value="libra">£ Libra Esterlina</option>
             </select>
         </label>
 
         <label>
             Converter <b>para</b>
             <select class="currency-select">
-                <option value="dolar">$ Dólar Americano</option>
+                <option value="dolar" selected>$ Dólar Americano</option>
                 <option value="euro">€ Euro</option>
                 <option value="bitcoin">bitcoin</option>
+                <option value="libra">£ Libra Esterlina</option>
+                <option value="real">R$ Real Brasileiro</option>
             </select>
         </label>
 
@@ -42,14 +48,14 @@
 
         <section>
             <div class="moeda">
-                <img  src="./assets/real.png" alt="Real Brasileiro">
+                <img class="currency-img1" src="./assets/real.png" alt="Real Brasileiro">
                 <p class="currency">Real</p>
                 <p class="currency-value-to-convert">R$ 0,00</p>
             </div>
 
             <img class="seta" src="./assets/arrow.png" alt="Seta de Conversão">
 
-             <div class="moeda">
+            <div class="moeda">
                 <img class="currency-img" src="./assets/dolar.png" alt="Dólar Americano">
                 <p class="currency" id="currency-name">Dólar</p>
                 <p class="currency-value">$ 0.0</p>
